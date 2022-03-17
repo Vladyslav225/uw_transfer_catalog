@@ -98,7 +98,6 @@ def main():
         print(ex)
 
     finally:
-        time.sleep(5)
         driver.close()
         driver.quit()
 
